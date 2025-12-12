@@ -1,1 +1,1 @@
-# iDEM-implementation
+This is my implementation for the paper "Iterated Denoising Energy Matching for Sampling from Boltzmann Densities" of Tara Akhound-Sadegh et. al., link: https://arxiv.org/pdf/2402.06121. There are 2 versions of the code, which are not so different from each other. In one version, I use a VE forward SDE, and in the other version, I use a VP forward SDE. In both versions, the target distribution is the mixture of Gaussian in 2 dimension. The algorithm is exactly what is described in the paper of Tara Akhound-Sadegh et. al.
